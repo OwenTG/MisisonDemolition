@@ -24,7 +24,7 @@ public class CloudCrafter : MonoBehaviour {
         GameObject cloud;
         for (int i=0; i<numClouds; i++)
         {
-            //Make and instance of cloudPrefab
+            //Make an instance of cloudPrefab
             cloud = Instantiate<GameObject>(cloudPrefab);
             //Position cloud
             Vector3 cPos = Vector3.zero;
