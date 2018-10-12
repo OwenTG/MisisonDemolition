@@ -13,7 +13,7 @@ public class ProjectileLine : MonoBehaviour
     private GameObject _poi;
     private List<Vector3> points;
 
-    private void Awake()
+    void Awake()
     {
         S = this; // Set the singleton
         //Get a reference to the LineRenderer
